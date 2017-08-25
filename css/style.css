@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: 15px;
+}
+
 /* Home */
 
 header {
@@ -32,16 +36,15 @@ header {
     height: 300px;
 }
 
-/*Quote */
+/* About us */
 
-#quote {
+#about {
     text-align: center;
-    padding: 50px;
-    color: white;
-    background-image: url("../img/code.png");
 }
 
-
+.description {
+    padding: 100px;
+}
 
 /* Works */
 #works {
@@ -76,6 +79,15 @@ header {
     margin: auto;
     margin-top: 60px;
     padding: 10px 20px 10px 20px;
+}
+
+/*Quote */
+
+#quote {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-image: url("../img/code.png");
 }
 
 /* Services */
