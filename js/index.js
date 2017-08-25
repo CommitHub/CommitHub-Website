@@ -17,7 +17,7 @@ $(document).ready(function() {
         title: 'Luvcheck Voice Assistant',
         about: 'About',
         aboutP: "A voice assistant enabling the luvcheck application to be completely voice " +
-            "controlled and packed with nice features like tell you the weather, track your appointments," +
+            "controlled and packed with nice features like tell you the weather, track your appointments, " +
             "tell you random facts and more",
         fuel: "Consumed Coffee (months)",
         littleRocket: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +

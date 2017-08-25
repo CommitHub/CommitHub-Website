@@ -11,7 +11,7 @@ body {
 /* Home */
 
 header {
-    background-image: url(../img/welcome.jpeg);
+    background-image: url(../img/bgforest.jpeg);
     width: 100%;
     height: 800px;
     background-position: center;
@@ -25,30 +25,33 @@ header {
     padding: 50px 0 0 0;
 }
 
-#header {
+.logo {
+    display: block;
+    margin:  150px auto;
+    width: 400px;
+    height: 300px;
+}
+
+/*Quote */
+
+#quote {
     text-align: center;
-    margin-top: 120px;
-}
-
-.tagline-stand {
-    font-size: 50px;
+    padding: 50px;
     color: white;
+    background-image: url("../img/code.png");
 }
 
-.tagline-detail {
-    font-size: 40px;
-    color: lightgrey;
-}
+
 
 /* Works */
 #works {
-    background-color: darkgrey;
-    border: 5px solid dimgrey;
+    background-color: #21c6ce;
 }
 
 .project {
     padding: 50px;
 }
+
 .project-title {
     text-align: center;
 }
@@ -58,6 +61,10 @@ header {
     margin: auto;
     width: 300px;
     height: 300px;
+}
+
+#heading-about, #about-p, #heading-fuel, #heading-tec, #tec-p, #heading-link, #link {
+    padding-left: 10px;
 }
 
 .coffee {
