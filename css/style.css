@@ -1,0 +1,84 @@
+/* #21c6ce logo color */
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Home */
+
+header {
+    background-image: url(../img/welcome.jpeg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+    margin: 0 0 50px 0;
+    padding: 50px 0 0 0;
+}
+
+#header {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.tagline-stand {
+    font-size: 50px;
+    color: white;
+}
+
+.tagline-detail {
+    font-size: 40px;
+    color: lightgrey;
+}
+
+/* Works */
+#works {
+    background-color: darkgrey;
+    border: 5px solid dimgrey;
+}
+
+.project {
+    padding: 50px;
+}
+.project-title {
+    text-align: center;
+}
+
+.showcase {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.coffee {
+    margin: 8px;
+}
+
+#change {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px 20px 10px 20px;
+}
+
+/* Services */
+
+.toolkit {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+
+
