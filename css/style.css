@@ -49,7 +49,7 @@ header {
 
 /* Works */
 #works {
-    background-color: #21c6ce;
+    background-color: ;
 }
 
 .project {
@@ -58,7 +58,7 @@ header {
 
 .project-title {
     text-align: center;
-}
+}#21c6ce
 
 .showcase {
     display: block;
