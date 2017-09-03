@@ -4,8 +4,8 @@ $(document).ready(function() {
     var titleTag = $('#title-pro');
     var aboutTag = $('#heading-about');
     var aboutPTAG = $('#about-p');
-    var fuelTag = $('#heading-fuel');
-    var littleRocketTag = $('#little-rocket');
+    var headingCoffeeTag = $('#heading-coffee');
+    var coffeeTag = $('#coffee');
     var technologyTag = $('#heading-tec');
     var tecPTAG = $('#tec-p');
     var linkTitleTag = $('#heading-link');
@@ -19,8 +19,8 @@ $(document).ready(function() {
         aboutP: "A voice assistant enabling the luvcheck application to be completely voice " +
             "controlled and packed with nice features like tell you the weather, track your appointments, " +
             "tell you random facts and more",
-        fuel: "Consumed Coffee (months)",
-        littleRocket: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        coffeeHeading: "Consumed Coffee (months)",
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div><div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div>",
@@ -36,8 +36,8 @@ $(document).ready(function() {
         title: "NMFM Accounting",
         about: "About",
         aboutP: "A portfolio/blog site made for an accountant in P.R. to make her business stand out",
-        fuel: "Consumed Coffee (months)",
-        littleRocket: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        coffeeHeading: "Consumed Coffee (months)",
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div><div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div><div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
@@ -53,8 +53,8 @@ $(document).ready(function() {
         title: "Zanra Consulting",
         about: "About",
         aboutP: "A portfolio/blog site made for a freelance marketing company",
-        fuel: "Consumed Coffee (months)",
-        littleRocket: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        coffeeHeading: "Consumed Coffee (months)",
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
             "src=\"img/coffee.png\"> </div>",
         technology: "Technology",
@@ -68,8 +68,8 @@ $(document).ready(function() {
     titleTag.text(luvcheck.title);
     aboutTag.text(luvcheck.about);
     aboutPTAG.text(luvcheck.aboutP);
-    fuelTag.text(luvcheck.fuel);
-    littleRocketTag.html(luvcheck.littleRocket);
+    headingCoffeeTag.text(luvcheck.coffeeHeading);
+    coffeeTag.html(luvcheck.coffee);
     technologyTag.text(luvcheck.technology);
     tecPTAG.text(luvcheck.tecP);
     linkTitleTag.text(luvcheck.linkTitle);
@@ -84,8 +84,8 @@ $(document).ready(function() {
             titleTag.text(luvcheck.title);
             aboutTag.text(luvcheck.about);
             aboutPTAG.text(luvcheck.aboutP);
-            fuelTag.text(luvcheck.fuel);
-            littleRocketTag.html(luvcheck.littleRocket);
+            headingCoffeeTag.text(luvcheck.coffeeHeading);
+            coffeeTag.html(luvcheck.coffee);
             technologyTag.text(luvcheck.technology);
             tecPTAG.text(luvcheck.tecP);
             linkTitleTag.text(luvcheck.linkTitle);
@@ -96,8 +96,8 @@ $(document).ready(function() {
             titleTag.text(nmfm.title);
             aboutTag.text(nmfm.about);
             aboutPTAG.text(nmfm.aboutP);
-            fuelTag.text(nmfm.fuel);
-            littleRocketTag.html(nmfm.littleRocket);
+            headingCoffeeTag.text(nmfm.coffeeHeading);
+            coffeeTag.html(nmfm.coffee);
             technologyTag.text(nmfm.technology);
             tecPTAG.text(nmfm.tecP);
             linkTitleTag.text(nmfm.linkTitle);
@@ -108,8 +108,8 @@ $(document).ready(function() {
             titleTag.text(zanra.title);
             aboutTag.text(zanra.about);
             aboutPTAG.text(zanra.aboutP);
-            fuelTag.text(zanra.fuel);
-            littleRocketTag.html(zanra.littleRocket);
+            headingCoffeeTag.text(zanra.coffeeHeading);
+            coffeeTag.html(zanra.coffee);
             technologyTag.text(zanra.technology);
             tecPTAG.text(zanra.tecP);
             linkTitleTag.text(zanra.linkTitle);
