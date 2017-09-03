@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    //Scrolling Animations
+    var window = $(window);
+    var fadeIn = 'fadeIn';
+
+    ///Works
     var pictureTag = $('#picture');
     var titleTag = $('#title-pro');
     var aboutTag = $('#heading-about');
@@ -117,6 +122,4 @@ $(document).ready(function() {
             index = 0;
         }
     });
-
-
 });
