@@ -134,7 +134,7 @@ $(document).ready(function() {
         tecPTAG.animateCss('animated fadeIn');
         linkTitleTag.animateCss('animated fadeIn');
         linkTag.animateCss('animated fadeIn');
-        
+
         if (index === 0) {
             pictureTag.attr('src', luvcheck.picture);
             titleTag.text(luvcheck.title);
