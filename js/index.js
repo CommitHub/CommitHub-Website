@@ -1,8 +1,36 @@
 $(document).ready(function() {
 
-    //Scrolling Animations
-    var window = $(window);
-    var fadeIn = 'fadeIn';
+    ///Mouse Scroll Animation
+    $("html").easeScroll({
+        frameRate: 60,
+        animationTime: 1000,
+        stepSize: 120,
+        pulseAlgorithm: !0,
+        pulseScale: 8,
+        pulseNormalize: 1,
+        accelerationDelta: 20,
+        accelerationMax: 1,
+        keyboardSupport: !0,
+        arrowScroll: 50
+    });
+
+    ///Nav bar scroll Animation
+    function scrollNav() {
+        $('.nav a').click(function(){
+            //Toggle Class
+            $(".active").removeClass("active");
+            $(this).closest('li').addClass("active");
+            var theClass = $(this).attr("class");
+            $('.'+theClass).parent('li').addClass('active');
+            //Animate
+            $('html, body').stop().animate({
+                scrollTop: $( $(this).attr('href') ).offset().top - 160
+            }, 800);
+            return false;
+        });
+        $('.scrollTop a').scrollTop();
+    }
+    scrollNav();
 
     ///Works
     var pictureTag = $('#picture');
@@ -15,6 +43,17 @@ $(document).ready(function() {
     var tecPTAG = $('#tec-p');
     var linkTitleTag = $('#heading-link');
     var linkTag = $('#link');
+
+    //Adds and Removes the animate class
+    $.fn.extend({
+        animateCss: function (animationName) {
+            var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            this.addClass('animated ' + animationName).one(animationEnd, function() {
+                $(this).removeClass('animated ' + animationName);
+            });
+            return this;
+        }
+    });
 
 
     var luvcheck = {
@@ -84,6 +123,18 @@ $(document).ready(function() {
     var index = 1;
 
     $("#change").click(function(){
+
+        pictureTag.animateCss('animated fadeIn');
+        titleTag.animateCss('animated fadeIn');
+        aboutTag.animateCss('animated fadeIn');
+        aboutPTAG.animateCss('animated fadeIn');
+        headingCoffeeTag.animateCss('animated fadeIn');
+        coffeeTag.animateCss('animated fadeIn');
+        technologyTag.animateCss('animated fadeIn');
+        tecPTAG.animateCss('animated fadeIn');
+        linkTitleTag.animateCss('animated fadeIn');
+        linkTag.animateCss('animated fadeIn');
+        
         if (index === 0) {
             pictureTag.attr('src', luvcheck.picture);
             titleTag.text(luvcheck.title);
