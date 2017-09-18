@@ -108,6 +108,19 @@ header {
     color: blue;
 }
 
+.next-button {
+    background-color: #21c6ce;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.next-button:hover {
+    background-color: #19868c;
+}
+
 /*Quote */
 
 #quote {
@@ -207,6 +220,15 @@ header {
 
 .general-info {
     margin: 80px 80px 80px 150px;
+}
+
+.contact-us {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us:hover {
+    color: white;
 }
 
 .social-networks {
