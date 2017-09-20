@@ -93,17 +93,20 @@ $(document).ready(function() {
         link: 'http://zanraconsulting.com/'
     };
 
+    //Holds all the projects objects
+    var projects = [luvcheck, nmfm, zanra];
+
     //Most Recent Project
-    pictureTag.attr('src', luvcheck.picture);
-    titleTag.text(luvcheck.title);
-    aboutTag.text(luvcheck.about);
-    aboutPTAG.text(luvcheck.aboutP);
-    headingCoffeeTag.text(luvcheck.coffeeHeading);
-    coffeeTag.html(luvcheck.coffee);
-    technologyTag.text(luvcheck.technology);
-    tecPTAG.text(luvcheck.tecP);
-    linkTitleTag.text(luvcheck.linkTitle);
-    linkTag.attr('href', luvcheck.link);
+    pictureTag.attr('src', projects[0].picture);
+    titleTag.text(projects[0].title);
+    aboutTag.text(projects[0].about);
+    aboutPTAG.text(projects[0].aboutP);
+    headingCoffeeTag.text(projects[0].coffeeHeading);
+    coffeeTag.html(projects[0].coffee);
+    technologyTag.text(projects[0].technology);
+    tecPTAG.text(projects[0].tecP);
+    linkTitleTag.text(projects[0].linkTitle);
+    linkTag.attr('href', projects[0].link);
 
     //Changes to the next project automatically
     var index = 1;
@@ -122,40 +125,40 @@ $(document).ready(function() {
         linkTag.animateCss('animated fadeIn');
 
         if (index === 0) {
-            pictureTag.attr('src', luvcheck.picture);
-            titleTag.text(luvcheck.title);
-            aboutTag.text(luvcheck.about);
-            aboutPTAG.text(luvcheck.aboutP);
-            headingCoffeeTag.text(luvcheck.coffeeHeading);
-            coffeeTag.html(luvcheck.coffee);
-            technologyTag.text(luvcheck.technology);
-            tecPTAG.text(luvcheck.tecP);
-            linkTitleTag.text(luvcheck.linkTitle);
-            linkTag.attr('href', luvcheck.link);
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
             index++;
         } else if (index === 1) {
-            pictureTag.attr('src', nmfm.picture);
-            titleTag.text(nmfm.title);
-            aboutTag.text(nmfm.about);
-            aboutPTAG.text(nmfm.aboutP);
-            headingCoffeeTag.text(nmfm.coffeeHeading);
-            coffeeTag.html(nmfm.coffee);
-            technologyTag.text(nmfm.technology);
-            tecPTAG.text(nmfm.tecP);
-            linkTitleTag.text(nmfm.linkTitle);
-            linkTag.attr('href', nmfm.link);
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
             index++;
         } else if (index === 2) {
-            pictureTag.attr('src', zanra.picture);
-            titleTag.text(zanra.title);
-            aboutTag.text(zanra.about);
-            aboutPTAG.text(zanra.aboutP);
-            headingCoffeeTag.text(zanra.coffeeHeading);
-            coffeeTag.html(zanra.coffee);
-            technologyTag.text(zanra.technology);
-            tecPTAG.text(zanra.tecP);
-            linkTitleTag.text(zanra.linkTitle);
-            linkTag.attr('href', zanra.link);
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
             index = 0;
         }
     });
