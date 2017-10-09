@@ -93,8 +93,139 @@ $(document).ready(function() {
         link: 'http://zanraconsulting.com/'
     };
 
+    var defender = {
+        picture: 'img/windowsdefender.png',
+        title: 'Windows Defender',
+        about: 'About',
+        aboutP: 'An arcade bullet hell game made in GameMaker Studio where you fight viruses infesting your windows computer',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: "Technology",
+        tecP: "GameMaker Studio, GML, Pyxel Edit",
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/e7enVw4Agd8/Windows+Defender.zip'
+    };
+
+    var gwynheim = {
+        picture: 'img/Cactus_enemy.png',
+        title: 'Gwynheim Weird Adventure',
+        about: 'About',
+        aboutP: 'A game made by Luis AKA Dave Davidson. I helped with the design of a few maps and enemies and it inspired me to learn programming',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'RPG Maker, Pyxel Edit',
+        linkTitle: 'URL',
+        link : 'http://www.mediafire.com/file/3zw228995c0i1xa/Gwynheim%27s+Weird+Adventure.rar'
+    };
+
+    var caveboy = {
+        picture: 'img/caveboy.png',
+        title: 'Super Cave Boy',
+        about: 'About',
+        aboutP: 'A game that mimics the mechanics from Spelunky',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'GameMaker Studio, GML',
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/mCKEzWe5cBQ/Super+Cave+Boy.exe'
+    };
+
+    var blaster = {
+        picture: 'img/blaster.PNG',
+        title: 'Blaster Faster',
+        about: 'About',
+        aboutP: 'A bullet hell arcade style game where you are a space pilot protecting the earth from aliens',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'GameMaker Studio, GML',
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/f3QEYwzDU3X/Blaster+Faster.exe'
+    };
+
+    var lazarus = {
+        picture: 'img/lazarus.PNG',
+        title: 'Lazarus',
+        about: 'About',
+        aboutP: 'You must help Lazarus get out of the factory before the boxes squishes him',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'GameMaker Studio, GML',
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/fE3VC0FyjBD/lazarus.exe'
+    };
+
+    var reef = {
+        picture: 'img/reef.png',
+        title: 'Super Rainbow Reef',
+        about: 'About',
+        aboutP: 'A classic brick breaker game set in the ocean',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'GameMaker Studio, GML',
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/0ObaDhORfEh/Super+Rainbow+Reef.exe'
+    };
+
+    var mail = {
+        picture: 'img/mail.png',
+        title: 'Galactic Mail',
+        about: 'About',
+        aboutP: 'You are a galactic mailman and you must deliver the mail to each planet in a dangerous universe',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'GameMaker Studio, GML',
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/zFMfpKF5QoJ/Galactic+Mail.exe'
+    };
+
+    var clutches = {
+        picture: 'img/clutches.png',
+        title: 'Evil Clutches',
+        about: 'About',
+        aboutP: 'Your sons has been taken by evil monsters. Fight to get them back',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'GameMaker Studio, GML',
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/0Yx9TF5ouBo/Evil+Clutches.exe'
+    };
+
+    var asteroid = {
+        picture: 'img/asteroid.png',
+        title: 'Super Asteroid',
+        about: 'About',
+        aboutP: 'Survive the vacuum of space by avoiding asteroids',
+        coffeeHeading: 'Consumed Coffee (months)',
+        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>",
+        technology: 'Technology',
+        tecP: 'GameMaker Studio, GML, Pyxel Edit',
+        linkTitle: 'URL',
+        link: 'https://nofile.io/f/Yqs3By2k8yk/Super_Asteroids.exe'
+    };
+
     //Holds all the projects objects
-    var projects = [luvcheck, nmfm, zanra];
+    var projects = [luvcheck, nmfm, zanra, defender, gwynheim, caveboy, blaster, lazarus, reef, mail, clutches, asteroid];
 
     //Most Recent Project
     pictureTag.attr('src', projects[0].picture);
@@ -149,6 +280,126 @@ $(document).ready(function() {
             linkTag.attr('href', projects[index].link);
             index++;
         } else if (index === 2) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        } else if (index === 3) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+        else if (index === 4) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+        else if (index === 5) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+        else if (index === 6) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+        else if (index === 7) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+
+        else if (index === 8) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+
+        else if (index === 9) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+
+        else if (index === 10) {
+            pictureTag.attr('src', projects[index].picture);
+            titleTag.text(projects[index].title);
+            aboutTag.text(projects[index].about);
+            aboutPTAG.text(projects[index].aboutP);
+            headingCoffeeTag.text(projects[index].coffeeHeading);
+            coffeeTag.html(projects[index].coffee);
+            technologyTag.text(projects[index].technology);
+            tecPTAG.text(projects[index].tecP);
+            linkTitleTag.text(projects[index].linkTitle);
+            linkTag.attr('href', projects[index].link);
+            index++;
+        }
+
+        else if (index === 11) {
             pictureTag.attr('src', projects[index].picture);
             titleTag.text(projects[index].title);
             aboutTag.text(projects[index].about);
