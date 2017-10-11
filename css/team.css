@@ -35,8 +35,8 @@ p {
 .picture {
     display: block;
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 500px;
 }
 
 .description {
