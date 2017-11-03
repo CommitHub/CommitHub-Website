@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f74b068-9cdf-4f83-a6f6-c556d762460e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teamLuis.html" afterPath="$PROJECT_DIR$/teamLuis.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +33,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="2312">
               <caret line="136" column="100" lean-forward="false" selection-start-line="136" selection-start-column="100" selection-end-line="136" selection-end-column="100" />
               <folding />
             </state>
@@ -55,7 +53,7 @@
       <file leaf-file-name="teamLuis.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teamLuis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="69">
               <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
               <folding />
             </state>
@@ -169,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -197,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,12 +326,13 @@
       <workItem from="1507429292936" duration="7913000" />
       <workItem from="1507509391411" duration="4306000" />
       <workItem from="1507684948791" duration="6610000" />
-      <workItem from="1507771927845" duration="796000" />
+      <workItem from="1507771927845" duration="1389000" />
+      <workItem from="1508633808525" duration="265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134703000" />
+    <option name="totallyTimeSpent" value="135561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="2312">
           <caret line="136" column="100" lean-forward="false" selection-start-line="136" selection-start-column="100" selection-end-line="136" selection-end-column="100" />
           <folding />
         </state>
@@ -640,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/teamLuis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="69">
           <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
           <folding />
         </state>
