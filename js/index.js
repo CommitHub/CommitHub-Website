@@ -29,6 +29,8 @@ $(document).ready(function() {
     var tecPTAG = $('#tec-p');
     var linkTitleTag = $('#heading-link');
     var linkTag = $('#link');
+    var coffeeIcon = "<div class=\"col-md-2\"> <img class=\"img-responsive coffee\" " +
+        "src=\"img/coffee.png\"> </div>";
 
     //Adds and Removes the animate class
     $.fn.extend({
@@ -50,10 +52,7 @@ $(document).ready(function() {
             "controlled and packed with nice features like tell you the weather, track your appointments, " +
             "tell you random facts and more",
         coffeeHeading: "Consumed Coffee (months)",
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div><div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div>",
+        coffee: coffeeIcon + coffeeIcon + coffeeIcon,
         technology: "Technology",
         tecP: "Annyang, ResponsiveVoice.JS, OpenWeather API, Wikipedia API, HTML, CSS, JavaScript, " +
             "Node.JS",
@@ -67,11 +66,7 @@ $(document).ready(function() {
         about: "About",
         aboutP: "A portfolio/blog site made for an accountant in P.R. to make her business stand out",
         coffeeHeading: "Consumed Coffee (months)",
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div><div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div><div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div>",
+        coffee: coffeeIcon + coffeeIcon + coffeeIcon + coffeeIcon,
         technology: "Technology",
         tecP: "Wordpress, HTML, CSS, JavaScript",
         linkTitle: 'URL',
@@ -84,9 +79,7 @@ $(document).ready(function() {
         about: "About",
         aboutP: "A portfolio/blog site made for a freelance marketing company",
         coffeeHeading: "Consumed Coffee (months)",
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-            "src=\"img/coffee.png\"> </div>",
+        coffee: coffeeIcon + coffeeIcon,
         technology: "Technology",
         tecP: "Wordpress, HTML, CSS, JavaScript",
         linkTitle: 'URL',
@@ -99,9 +92,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'An arcade bullet hell game made in GameMaker Studio where you fight viruses infesting your windows computer',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee: coffeeIcon + coffeeIcon,
         technology: "Technology",
         tecP: "GameMaker Studio, GML, Pyxel Edit",
         linkTitle: 'URL',
@@ -114,12 +105,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'A game made by Luis AKA Dave Davidson. I helped with the design of a few maps and enemies and it inspired me to learn programming',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div> <div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee: coffeeIcon + coffeeIcon + coffeeIcon + coffeeIcon + coffeeIcon,
         technology: 'Technology',
         tecP: 'RPG Maker, Pyxel Edit',
         linkTitle: 'URL',
@@ -132,8 +118,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'A game that mimics the mechanics from Spelunky',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee: coffeeIcon,
         technology: 'Technology',
         tecP: 'GameMaker Studio, GML',
         linkTitle: 'URL',
@@ -146,8 +131,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'A bullet hell arcade style game where you are a space pilot protecting the earth from aliens',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee:  coffeeIcon,
         technology: 'Technology',
         tecP: 'GameMaker Studio, GML',
         linkTitle: 'URL',
@@ -160,8 +144,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'You must help Lazarus get out of the factory before the boxes squishes him',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee:  coffeeIcon,
         technology: 'Technology',
         tecP: 'GameMaker Studio, GML',
         linkTitle: 'URL',
@@ -174,8 +157,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'A classic brick breaker game set in the ocean',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee:  coffeeIcon,
         technology: 'Technology',
         tecP: 'GameMaker Studio, GML',
         linkTitle: 'URL',
@@ -188,8 +170,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'You are a galactic mailman and you must deliver the mail to each planet in a dangerous universe',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee:  coffeeIcon,
         technology: 'Technology',
         tecP: 'GameMaker Studio, GML',
         linkTitle: 'URL',
@@ -202,8 +183,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'Your sons has been taken by evil monsters. Fight to get them back',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee:  coffeeIcon,
         technology: 'Technology',
         tecP: 'GameMaker Studio, GML',
         linkTitle: 'URL',
@@ -216,8 +196,7 @@ $(document).ready(function() {
         about: 'About',
         aboutP: 'Survive the vacuum of space by avoiding asteroids',
         coffeeHeading: 'Consumed Coffee (months)',
-        coffee: "<div class=\"col-sm-2\"> <img class=\"img-responsive coffee\" " +
-        "src=\"img/coffee.png\"> </div>",
+        coffee:  coffeeIcon,
         technology: 'Technology',
         tecP: 'GameMaker Studio, GML, Pyxel Edit',
         linkTitle: 'URL',
@@ -255,162 +234,22 @@ $(document).ready(function() {
         linkTitleTag.animateCss('animated fadeIn');
         linkTag.animateCss('animated fadeIn');
 
-        if (index === 0) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        } else if (index === 1) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        } else if (index === 2) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        } else if (index === 3) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
-        else if (index === 4) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
-        else if (index === 5) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
-        else if (index === 6) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
-        else if (index === 7) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
+        pictureTag.attr('src', projects[index].picture);
+        titleTag.text(projects[index].title);
+        aboutTag.text(projects[index].about);
+        aboutPTAG.text(projects[index].aboutP);
+        headingCoffeeTag.text(projects[index].coffeeHeading);
+        coffeeTag.html(projects[index].coffee);
+        technologyTag.text(projects[index].technology);
+        tecPTAG.text(projects[index].tecP);
+        linkTitleTag.text(projects[index].linkTitle);
+        linkTag.attr('href', projects[index].link);
 
-        else if (index === 8) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
-
-        else if (index === 9) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
-
-        else if (index === 10) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
-            index++;
-        }
-
-        else if (index === 11) {
-            pictureTag.attr('src', projects[index].picture);
-            titleTag.text(projects[index].title);
-            aboutTag.text(projects[index].about);
-            aboutPTAG.text(projects[index].aboutP);
-            headingCoffeeTag.text(projects[index].coffeeHeading);
-            coffeeTag.html(projects[index].coffee);
-            technologyTag.text(projects[index].technology);
-            tecPTAG.text(projects[index].tecP);
-            linkTitleTag.text(projects[index].linkTitle);
-            linkTag.attr('href', projects[index].link);
+        if (index === projects.length - 1) {
             index = 0;
+        } else {
+            index++;
         }
+
     });
 });
