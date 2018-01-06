@@ -140,7 +140,7 @@ header {
     color: black;
 }
 
-/* Team */
+/* About */
 
 #about {
     color: white;
@@ -149,6 +149,17 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.picture {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 260px;
+}
+
+.description {
+    margin: 40px;
 }
 
 
