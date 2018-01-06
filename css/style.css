@@ -28,6 +28,48 @@ p {
     text-align: center;
 }
 
+@media only screen and (max-width: 767px) {
+    header {
+        background-image: url(../img/airphone.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #works {
+        background-image: url(../img/projectphone.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #quote {
+        background-image: url("../img/codephone.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #about {
+        background-image: url("../img/cityphone.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #contact {
+        background-image: url("../img/contactphone.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
 /* Home */
 
 header {
@@ -245,47 +287,4 @@ header {
 .copyright {
     margin-top: 20px;
     text-align: center;
-}
-
-@media only screen and (max-width: 767px) {
-    header {
-        background-image: url(../img/airphone.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    #works {
-        background-image: url(../img/projectphone.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    #quote {
-        background-image: url("../img/codephone.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    #about {
-        background-image: url("../img/cityphone.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
-    #contact {
-        background-image: url("../img/contactphone.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
 }
