@@ -29,7 +29,7 @@ $(document).ready(function() {
     var tecPTAG = $('#tec-p');
     var linkTitleTag = $('#heading-link');
     var linkTag = $('#link');
-    var coffeeIcon = "<div class=\"col-md-2\"> <img class=\"img-responsive coffee\" " +
+    var coffeeIcon = "<div class=\"col-xs-3 col-md-1\"> <img class=\"img-responsive coffee\" " +
         "src=\"img/coffee.png\"> </div>";
 
     //Adds and Removes the animate class
