@@ -231,6 +231,7 @@ header {
 .social-networks {
     margin: 0 auto;
     width: 50%;
+    text-align: center;
 }
 
 .social {
