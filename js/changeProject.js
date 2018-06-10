@@ -21,6 +21,15 @@ $(document).ready(function() {
         }
     });
 
+    var micro = {
+        picture: 'img/Medium_without word.png',
+        title: 'Micro.bot',
+        about: 'An open source marketing twitter bot that helps you schedule post to twitter to engage your audience',
+        coffee: coffeeIcon + coffeeIcon,
+        technology: "Technology",
+        tec: "Pug, Node.js, MongoDB, jQuery, Passport.JS, CSS, JavaScript, HTML",
+        link: 'https://github.com/TheGameFreak720/Micro.bot'
+    };
 
     var luvcheck = {
         picture: 'img/LuvCheckFinal.png',
@@ -63,7 +72,7 @@ $(document).ready(function() {
 
 
     //Holds all the projects objects
-    var projects = [luvcheck, nmfm, zanra, defender];
+    var projects = [micro, luvcheck, nmfm, zanra, defender];
 
     //Most Recent Project
     pictureTag.attr('src', projects[0].picture);
