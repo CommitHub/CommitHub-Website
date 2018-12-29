@@ -110,6 +110,15 @@ $(document).ready(function() {
         tec: 'HTML, CSS, JavaScript',
         link: 'https://thegamefreak720.github.io/tic-tac-toe/'
     };
+    
+    const pomodoroTimer = {
+        picture: 'img/fcc.jpg',
+        title: 'Pomodoro Timer',
+        about: 'A pomodoro clock I built',
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, JavaScript',
+        link: 'https://pomodorotimer.glitch.me/#'
+    };
 
     const nmfm = {
         picture: "img/nmfm.jpg",
@@ -153,6 +162,7 @@ $(document).ready(function() {
         luvcheck, 
         simonsGame,
         ticTacToe,
+        pomodoroTimer,
         nmfm, 
         zanra
     ];
