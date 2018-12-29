@@ -102,6 +102,15 @@ $(document).ready(function() {
         link: 'https://thegamefreak720.github.io/simons-game/'
     };
 
+    const ticTacToe = {
+        picture: 'img/fcc.jpg',
+        title: 'Tic Tac Toe',
+        about: 'A simple game of Tic Tac Toe in your browser',
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, JavaScript',
+        link: 'https://thegamefreak720.github.io/tic-tac-toe/'
+    };
+
     const nmfm = {
         picture: "img/nmfm.jpg",
         title: "NMFM Accounting",
@@ -143,6 +152,7 @@ $(document).ready(function() {
         indecisionApp, 
         luvcheck, 
         simonsGame,
+        ticTacToe,
         nmfm, 
         zanra
     ];
