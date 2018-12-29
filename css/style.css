@@ -121,6 +121,10 @@ header img {
     text-align: center; 
 }
 
+.section-spacing {
+    margin-bottom: 50px;
+}
+
 .showcase {
     display: block;
     margin: auto;
@@ -129,7 +133,7 @@ header img {
 }
 
 #heading-project, #about-p, #tec-p, #link {
-    padding-left: 10px; 
+    padding: 10px 0; 
 }
 
 .coffee {
