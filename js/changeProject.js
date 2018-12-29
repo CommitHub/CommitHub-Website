@@ -93,6 +93,15 @@ $(document).ready(function() {
         link: 'http://www.luvcheck.com/'
     };
 
+    const simonsGame = {
+        picture: 'img/fcc.jpg',
+        title: `Simon's Game`,
+        about: `A simple game that copies the tabletop game of Simon's`,
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, JavaScript',
+        link: 'https://thegamefreak720.github.io/simons-game/'
+    };
+
     const nmfm = {
         picture: "img/nmfm.jpg",
         title: "NMFM Accounting",
@@ -133,6 +142,7 @@ $(document).ready(function() {
         frontEndProject, 
         indecisionApp, 
         luvcheck, 
+        simonsGame,
         nmfm, 
         zanra
     ];
