@@ -48,6 +48,15 @@ $(document).ready(function() {
         link: 'https://github.com/TheGameFreak720/Micro.bot'
     };
 
+    const techladder = {
+        picture: 'img.techladder.png',
+        title: 'Tech Ladder IO',
+        about: 'An open source project I contributed to in hacktoberfest 2018 that helps programmers with different subjects on programming',
+        coffee: coffeeIcon,
+        tec: 'JavaScript',
+        link: 'https://github.com/TheGameFreak720/TechLadderIO'
+    };
+
     const gtd = {
         picture: 'img/Medium_without word.png',
         title: 'GTD',
@@ -105,7 +114,7 @@ $(document).ready(function() {
 
 
     //Holds all the projects objects
-    var projects = [athena, sentinel, micro, defender, gtd, frontEndProject, luvcheck, nmfm, zanra];
+    var projects = [athena, sentinel, micro, techladder, defender, gtd, frontEndProject, luvcheck, nmfm, zanra];
 
     //Most Recent Project
     pictureTag.attr('src', projects[0].picture);
