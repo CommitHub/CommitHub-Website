@@ -120,6 +120,15 @@ $(document).ready(function() {
         link: 'https://pomodorotimer.glitch.me/#'
     };
 
+    const calculator = {
+        picture: 'img/fcc.jpg',
+        title: 'Calculator',
+        about: 'A web calculator made with JavaScript',
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, JavaScript',
+        link: 'https://javascriptcalculator.glitch.me/'
+    };
+
     const nmfm = {
         picture: "img/nmfm.jpg",
         title: "NMFM Accounting",
@@ -163,6 +172,7 @@ $(document).ready(function() {
         simonsGame,
         ticTacToe,
         pomodoroTimer,
+        calculator,
         nmfm, 
         zanra
     ];
