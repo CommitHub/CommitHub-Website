@@ -49,7 +49,7 @@ $(document).ready(function() {
     };
 
     const techladder = {
-        picture: 'img.techladder.png',
+        picture: 'img/techladder.png',
         title: 'Tech Ladder IO',
         about: 'An open source project I contributed to in hacktoberfest 2018 that helps programmers with different subjects on programming',
         coffee: coffeeIcon,
@@ -74,6 +74,15 @@ $(document).ready(function() {
         tec: 'React, Axios, React Router, Styled Components',
         link: 'https://github.com/TheGameFreak720/front-end-project-week/tree/master/notes'
     };
+
+    const indecisionApp = {
+        picture: 'img/Medium_without word.png',
+        title: 'Indecision App',
+        about: `It's a task manager app that will randomly pick a task to do`,
+        coffee: coffeeIcon,
+        tec: 'React, Webpack, Babel, SASS, React Modal',
+        link: 'https://github.com/TheGameFreak720/Indecision-App'
+    }
 
     const luvcheck = {
         picture: 'img/LuvCheckFinal.png',
@@ -114,7 +123,19 @@ $(document).ready(function() {
 
 
     //Holds all the projects objects
-    var projects = [athena, sentinel, micro, techladder, defender, gtd, frontEndProject, luvcheck, nmfm, zanra];
+    var projects = [
+        athena, 
+        sentinel, 
+        micro, 
+        techladder, 
+        defender, 
+        gtd, 
+        frontEndProject, 
+        indecisionApp, 
+        luvcheck, 
+        nmfm, 
+        zanra
+    ];
 
     //Most Recent Project
     pictureTag.attr('src', projects[0].picture);
