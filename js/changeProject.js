@@ -138,6 +138,15 @@ $(document).ready(function() {
         link: 'https://twitch-app.glitch.me/'
     };
 
+    const undertale = {
+        picture: 'img/Annoying_Dog.gif',
+        title: 'Undertale Quote Generator',
+        about: 'A quote generator that picks a random quote and you can share it on twitter',
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, JavaScript',
+        link: 'https://undertale-quotes.glitch.me/'
+    };
+
     const nmfm = {
         picture: "img/nmfm.jpg",
         title: "NMFM Accounting",
@@ -178,6 +187,7 @@ $(document).ready(function() {
         frontEndProject, 
         indecisionApp, 
         luvcheck, 
+        undertale,
         simonsGame,
         ticTacToe,
         pomodoroTimer,
