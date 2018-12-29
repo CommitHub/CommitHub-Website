@@ -21,6 +21,16 @@ $(document).ready(function() {
         }
     });
 
+    var sentinel = {
+        picture: 'img/sentinnel-logo-transparent.png',
+        title: 'Sentinel Professional Services',
+        about: 'A portfolio website for a security services company',
+        coffee: coffeeIcon,
+        technology: "Technology",
+        tec: "HTML, CSS , JavaScript",
+        link: 'http://sentinelprofessional.com/'
+    };
+
     var micro = {
         picture: 'img/Medium_without word.png',
         title: 'Micro.bot',
@@ -72,7 +82,7 @@ $(document).ready(function() {
 
 
     //Holds all the projects objects
-    var projects = [micro, luvcheck, nmfm, zanra, defender];
+    var projects = [sentinel, micro, luvcheck, nmfm, zanra, defender];
 
     //Most Recent Project
     pictureTag.attr('src', projects[0].picture);

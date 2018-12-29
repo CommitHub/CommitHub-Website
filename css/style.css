@@ -6,7 +6,8 @@
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 9999; }
+    z-index: 9999; 
+}
 
 .spinner {
     width: 80px;
@@ -20,37 +21,47 @@
     left: 0;
     right: 0;
     margin: auto;
-    animation: spin 1s infinite linear; }
+    animation: spin 1s infinite linear; 
+}
 
 @keyframes spin {
     from {
-        transform: rotate(0deg); }
+        transform: rotate(0deg); 
+    }
     to {
-        transform: rotate(360deg); } }
+        transform: rotate(360deg); 
+    } 
+}
 header, #works, #quote, #about, #contact {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; }
+    background-attachment: fixed; 
+}
 
 * {
-    font-family: 'Playfair Display', serif; }
+    font-family: 'Playfair Display', serif; 
+}
 
 body {
     margin: 0;
-    padding: 0; }
+    padding: 0; 
+}
 
 p {
-    font-size: 15px; }
+    font-size: 15px; 
+}
 
 .title {
     text-align: center;
     margin: 0 0 50px 0;
-    padding: 50px 0 0 0; }
+    padding: 50px 0 0 0; 
+}
 
 .description {
     text-align: center;
-    margin: 40px; }
+    margin: 40px; 
+}
 
 @media only screen and (max-width: 767px) {
     header {
@@ -58,87 +69,88 @@ p {
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed; }
-
-    #works {
-        background-image: url(../img/projectphone.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed; }
+        background-attachment: fixed; 
+    }
 
     #quote {
         background-image: url("../img/codephone.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed; }
+        background-attachment: fixed; 
+    }
 
     #about {
         background-image: url("../img/cityphone.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed; }
+        background-attachment: fixed; 
+    }
 
     #contact {
         background-image: url("../img/contactphone.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed; } }
+        background-attachment: fixed; } 
+    }
+
 /* Home */
 header {
     background-image: url(../img/air.jpg);
     width: 100%;
-    height: 800px; }
+    height: 800px; 
+}
 
 header img {
     display: block;
     margin: 0 auto;
     width: 600px;
     height: 500px;
-    padding-top: 170px; }
-
-/* goal */
-#goal {
-    text-align: center; }
-#goal h3 {
-    margin: 100px; }
+    padding-top: 170px; 
+}
 
 /* Works */
-#works {
-    background-image: url(../img/project.jpg); }
 
 .project {
-    padding: 50px; }
+    padding: 50px; 
+}
 
 .project-title {
-    text-align: center; }
+    text-align: center; 
+}
 
 .showcase {
     display: block;
     margin: auto;
     width: 300px;
-    height: 300px; }
+    height: 300px; 
+}
 
 #heading-project, #about-p, #tec-p, #link {
-    padding-left: 10px; }
+    padding-left: 10px; 
+}
 
 .coffee {
-    margin: 8px; }
+    margin: 8px; 
+}
 
 #change {
     display: block;
     margin: auto;
     margin-top: 60px;
-    padding: 10px 20px 10px 20px; }
+    padding: 10px 20px 10px 20px; 
+}
 
 #link {
     text-decoration: none;
-    color: black; }
+    color: black; 
+}
+
 #link:hover {
-    color: blue; }
+    color: blue; 
+}
 
 .next-button {
     background-color: #21c6ce;
@@ -146,52 +158,62 @@ header img {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer; }
+    cursor: pointer; 
+}
 .next-button:hover {
-    background-color: #19868c; }
+    background-color: #19868c; 
+}
 
 /*Quote */
 #quote {
     text-align: center;
     padding: 50px;
     color: white;
-    background-image: url("../img/code.png"); }
+    background-image: url("../img/code.png"); 
+}
 
 /* Services */
 .toolkit {
     display: block;
     margin: 50px auto;
-    text-align: center; }
+    text-align: center; 
+}
 
 /* About */
 #about {
     color: white;
-    background-image: url("../img/city.jpeg"); }
+    background-image: url("../img/city.jpeg"); 
+}
 
 .picture {
     display: block;
     margin: 0 auto;
     width: 200px;
-    height: 260px; }
+    height: 260px; 
+}
 
 /*Quote2 */
 #quote2 {
     text-align: center;
-    padding: 50px; }
+    padding: 50px; 
+}
 
 /* Contact */
 #contact {
     color: white;
-    background-image: url("../img/contact.jpeg"); }
+    background-image: url("../img/contact.jpeg"); 
+}
 
 .general-info {
     margin: 80px 0 50px 0;
-    text-align: center; }
+    text-align: center; 
+}
 
 .social-networks {
     margin: 0 auto;
     width: 50%;
-    text-align: center; }
+    text-align: center; 
+}
 
 .social {
     padding: 20px;
@@ -199,40 +221,51 @@ header img {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px; }
+    margin: 5px; 
+}
+
 .social:hover {
     opacity: 0.7;
     text-decoration: none;
-    color: white; }
+    color: white; 
+}
 
 .twitter {
     background: #55ACEE;
-    color: white; }
+    color: white; 
+}
 
 .linkedin {
     background: #007bb5;
-    color: white; }
+    color: white; 
+}
 
 .github {
     background: black;
-    color: white; }
+    color: white; 
+}
 
 .fcc {
     background: darkgreen;
-    color: white; }
+    color: white; 
+}
 
 .gitshowcase {
     background: #21c6ce;
-    color: white; }
+    color: white; 
+}
 
 .quora {
     background: red;
-    color: white; }
+    color: white; 
+}
 
 .stack {
     background: grey;
-    color: white; }
+    color: white; 
+}
 
 .copyright {
     margin-top: 20px;
-    text-align: center; }
+    text-align: center; 
+}
