@@ -48,6 +48,15 @@ $(document).ready(function() {
         link: 'https://github.com/TheGameFreak720/Micro.bot'
     };
 
+    const gtd = {
+        picture: 'img/Medium_without word.png',
+        title: 'GTD',
+        about: 'A website I did for a job interview',
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, JavaScript',
+        link: 'https://thegamefreak720.github.io/gtd/'
+    };
+
     const luvcheck = {
         picture: 'img/LuvCheckFinal.png',
         title: 'Luvcheck Voice Assistant',
@@ -87,7 +96,7 @@ $(document).ready(function() {
 
 
     //Holds all the projects objects
-    var projects = [athena, sentinel, micro, luvcheck, nmfm, zanra, defender];
+    var projects = [athena, sentinel, micro, defender, gtd, luvcheck, nmfm, zanra];
 
     //Most Recent Project
     pictureTag.attr('src', projects[0].picture);
