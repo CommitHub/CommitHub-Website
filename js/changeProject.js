@@ -129,6 +129,15 @@ $(document).ready(function() {
         link: 'https://javascriptcalculator.glitch.me/'
     };
 
+    const twitch = {
+        picture: 'img/fcc.jpg',
+        title: 'Twitch.tv App',
+        about: 'An app that fetches information from the Twitch API and displays it',
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, JavaScript',
+        link: 'https://twitch-app.glitch.me/'
+    };
+
     const nmfm = {
         picture: "img/nmfm.jpg",
         title: "NMFM Accounting",
@@ -173,6 +182,7 @@ $(document).ready(function() {
         ticTacToe,
         pomodoroTimer,
         calculator,
+        twitch,
         nmfm, 
         zanra
     ];
