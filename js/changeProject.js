@@ -57,6 +57,15 @@ $(document).ready(function() {
         link: 'https://thegamefreak720.github.io/gtd/'
     };
 
+    const frontEndProject = {
+        picture: 'img/lambda.jpg',
+        title: 'Front End Project Week',
+        about: 'A React app that is similar to trello where you can add notes, delete them, edit them and view them',
+        coffee: coffeeIcon,
+        tec: 'React, Axios, React Router, Styled Components',
+        link: 'https://github.com/TheGameFreak720/front-end-project-week/tree/master/notes'
+    };
+
     const luvcheck = {
         picture: 'img/LuvCheckFinal.png',
         title: 'Luvcheck Voice Assistant',
@@ -96,7 +105,7 @@ $(document).ready(function() {
 
 
     //Holds all the projects objects
-    var projects = [athena, sentinel, micro, defender, gtd, luvcheck, nmfm, zanra];
+    var projects = [athena, sentinel, micro, defender, gtd, frontEndProject, luvcheck, nmfm, zanra];
 
     //Most Recent Project
     pictureTag.attr('src', projects[0].picture);
