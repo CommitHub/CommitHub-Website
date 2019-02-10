@@ -66,6 +66,15 @@ $(document).ready(function() {
         link: 'https://thegamefreak720.github.io/gtd/'
     };
 
+    const albizu = {
+        picture: 'img/bandera.png',
+        title: 'Albizu Campos Tribute Page',
+        about: 'A website in honor of a patriot of P.R.',
+        coffee: coffeeIcon,
+        tec: 'HTML, CSS, LESS',
+        link: 'https://github.com/TheGameFreak720/Albizu-Campos-Tribute-Page'
+    };
+
     const frontEndProject = {
         picture: 'img/lambda.jpg',
         title: 'Front End Project Week',
@@ -184,6 +193,7 @@ $(document).ready(function() {
         techladder, 
         defender, 
         gtd, 
+        albizu,
         frontEndProject, 
         indecisionApp, 
         luvcheck, 
